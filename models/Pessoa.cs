@@ -16,6 +16,7 @@ namespace classesMetodosPropriedaeds.models
             set
             {
                 if (value == "")
+
                 {
                     throw new ArgumentException("O nome não pode ser vazio");
                 }
@@ -23,6 +24,9 @@ namespace classesMetodosPropriedaeds.models
                 _nome = value;
             } 
         }
+
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome.ToUpper()}";
         public int Idade
         {
             get => _idade;
@@ -40,7 +44,7 @@ namespace classesMetodosPropriedaeds.models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Me chamo {Nome} e tenho {Idade} anos de idade.");
+            Console.WriteLine($"Me chamo {NomeCompleto} e tenho {Idade} anos de idade.");
         }
     }
 }
