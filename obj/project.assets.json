@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gahx3\\Desktop\\CSharpCodes\\Estudo\\classesMetodosPropriedaeds\\classesMetodosPropriedaeds.csproj",
+      "projectUniqueName": "C:\\Users\\gahx3\\Desktop\\CSharpCodes\\Estudo\\ManipulandoValores\\classesMetodosPropriedaeds.csproj",
       "projectName": "classesMetodosPropriedaeds",
-      "projectPath": "C:\\Users\\gahx3\\Desktop\\CSharpCodes\\Estudo\\classesMetodosPropriedaeds\\classesMetodosPropriedaeds.csproj",
+      "projectPath": "C:\\Users\\gahx3\\Desktop\\CSharpCodes\\Estudo\\ManipulandoValores\\classesMetodosPropriedaeds.csproj",
       "packagesPath": "C:\\Users\\gahx3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gahx3\\Desktop\\CSharpCodes\\Estudo\\classesMetodosPropriedaeds\\obj\\",
+      "outputPath": "C:\\Users\\gahx3\\Desktop\\CSharpCodes\\Estudo\\ManipulandoValores\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gahx3\\AppData\\Roaming\\NuGet\\NuGet.Config",
