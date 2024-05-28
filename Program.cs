@@ -14,7 +14,6 @@ novoCarro.ApresentarCarro();
 
 
 // Classe Calculadora, teste de métodos com parametros
-
 Calculadora novaCalc = new Calculadora();
 novaCalc.Somar(5, 2);
 novaCalc.Subtrair(5, 2);
@@ -22,3 +21,9 @@ novaCalc.Multiplicar(5, 2);
 novaCalc.Dividir(5, 2);
 novaCalc.Potencia(5, 2);
 novaCalc.RaizQuadrada(5);
+
+// Classe pessoa com getter e setter flexíveis:
+Pessoa novaPessoa = new Pessoa();
+novaPessoa.Nome = "Gabriel";
+novaPessoa.Idade = 18;
+novaPessoa.Apresentar();
