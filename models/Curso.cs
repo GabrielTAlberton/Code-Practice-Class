@@ -29,9 +29,12 @@ namespace classesMetodosPropriedaeds.models
         
         public void ListarAlunosMatriculados()
         {
-            foreach (Pessoa aluno in Alunos)
+
+            for (int cont = 0; cont < Alunos.Count; cont++)
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                // utilizando concatenacao de string em vez de utilizar interpolacao $"{}"
+                string texto = "Nº " + (cont + 1) + " - " + Alunos[cont].NomeCompleto;
+                Console.WriteLine(texto);
             }
         } 
     }
